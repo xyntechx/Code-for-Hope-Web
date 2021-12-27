@@ -1,8 +1,9 @@
-# Code for Hope IDE
-An online IDE for Code for Hope students and mentors.
+# Code for Hope Web
+A website for Code for Hope students and mentors (with an online IDE)
 
 ## 🤖 Technologies
 - Svelte
+- Vite
 - TypeScript
 
 ## 🔨 Usage
