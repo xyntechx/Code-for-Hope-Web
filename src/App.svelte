@@ -1,44 +1,62 @@
+<script lang="ts">
+    import IDE from "./lib/IDE.svelte";
+    import Notebooks from "./lib/Notebooks.svelte";
+    import Team from "./lib/Team.svelte";
+    import logo from "./assets/logo.png";
+
+    const changePage = (page: string) => {
+        let pages: string[] = ["home", "ide", "notebooks", "team"];
+
+        pages.forEach((page_name) => {
+            let to_remove = document.getElementById(page_name);
+            to_remove.style.display = "none";
+            console.log(page_name);
+        });
+
+        if (page === "home") {
+            let page = document.getElementById("home");
+            page.style.display = "flex";
+        } else if (page === "ide") {
+            let page = document.getElementById("ide");
+            page.style.display = "flex";
+        } else if (page === "notebooks") {
+            let page = document.getElementById("notebooks");
+            page.style.display = "flex";
+        } else if (page === "team") {
+            let page = document.getElementById("team");
+            page.style.display = "flex";
+        }
+    };
+</script>
+
 <main>
-    <h1>Code for Hope</h1>
-    <section>
-        <a
-            href="https://colab.research.google.com/drive/19ceCfHiU4sCW2Sdp5PF4JQ6mautEeFoJ"
-            target="_blank">Lesson 1</a
-        >
-        <a
-            href="https://colab.research.google.com/drive/1PCfgcUbWtm6MqjyN1s7sLn13ncHag1JY"
-            target="_blank">Practice 1</a
-        >
-        <a
-            href="https://colab.research.google.com/drive/1NqPWP02JuXNdUyK0w0AWBCg9oZVSK1tf"
-            target="_blank">Lesson 2</a
-        >
-        <a
-            href="https://colab.research.google.com/drive/1P7EZdJLo26vlZEJ2q17JcF8Z40qUPRMx"
-            target="_blank">Practice 2</a
-        >
-        <a
-            href="https://colab.research.google.com/drive/1xMIlF43QZVT_dAlAVbBZ6T2r4t3DTM61"
-            target="_blank">Lesson 3</a
-        >
-        <a
-            href="https://colab.research.google.com/drive/1oUaTxuVtr6qZT7cH_mubSsfEuDZ5d9pw"
-            target="_blank">Practice 3</a
-        >
-        <a
-            href="https://colab.research.google.com/drive/11TCo3jqDKbHyis-q5Tn17l4toqKUPUgw"
-            target="_blank">Lesson 4</a
-        >
-        <a
-            href="https://colab.research.google.com/drive/1opPVymG1lmYuFFJZ7pz6D5GCVYe5r3wd"
-            target="_blank">Practice 4</a
-        >
+    <section id="home">
+        <h1>Code for Hope</h1>
+        <button on:click|preventDefault={() => changePage("ide")}>IDE</button>
+        <button on:click|preventDefault={() => changePage("notebooks")}>
+            Notebooks
+        </button>
+        <button on:click|preventDefault={() => changePage("team")}>Team</button>
+        <img src={logo} alt="Code for Hope Logo" />
     </section>
-    <iframe
-        title="IDE"
-        frameborder="0"
-        src="https://replit.com/@xyntechx/CodeForHope?embed=true"
-    />
+
+    <section class="page" id="ide">
+        <IDE />
+        <br />
+        <button on:click|preventDefault={() => changePage("home")}>Home</button>
+    </section>
+
+    <section class="page" id="notebooks">
+        <Notebooks />
+        <br />
+        <button on:click|preventDefault={() => changePage("home")}>Home</button>
+    </section>
+
+    <section class="page" id="team">
+        <Team />
+        <br />
+        <button on:click|preventDefault={() => changePage("home")}>Home</button>
+    </section>
 </main>
 
 <style>
@@ -53,23 +71,38 @@
 
     h1 {
         color: #818cf8;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
-    iframe {
-        width: 90vw;
-        height: 80vh;
+    button {
+        border: none;
+        border-radius: 0.5rem;
+        background-color: #818cf8;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 12rem;
+        font-size: 1.5rem;
+    }
+
+    button:hover {
+        background-color: #5968f8;
+    }
+
+    img {
+        width: 5rem;
     }
 
     section {
-        display: grid;
-        column-gap: 1rem;
-        grid-template-columns: repeat(8, minmax(0, 1fr));
-        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
     }
 
-    a {
-        font-size: 1rem;
+    .page {
+        display: none;
     }
 
     @media (max-width: 640px) {
@@ -77,12 +110,8 @@
             font-size: 1.5rem;
         }
 
-        section {
-            column-gap: 0.2rem;
-        }
-
-        a {
-            font-size: 0.5rem;
+        button {
+            font-size: 1rem;
         }
     }
 </style>
