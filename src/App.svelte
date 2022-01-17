@@ -32,11 +32,24 @@
 <main>
     <section id="home">
         <h1>Code for Hope</h1>
+
         <button on:click|preventDefault={() => changePage("ide")}>IDE</button>
         <button on:click|preventDefault={() => changePage("notebooks")}>
             Notebooks
         </button>
         <button on:click|preventDefault={() => changePage("team")}>Team</button>
+
+        <a
+            href="https://forms.gle/YGz6LpZn8FDsanHK8"
+            target="_blank"
+            class="link">Volunteer Form</a
+        >
+        <a
+            href="https://forms.gle/ngALp5KBnYVA4gCd7"
+            target="_blank"
+            class="link">Python Quiz for Prospective Volunteers</a
+        >
+
         <img src={logo} alt="Code for Hope Logo" />
     </section>
 
@@ -103,6 +116,12 @@
 
     .page {
         display: none;
+    }
+
+    .link {
+        color: #818cf8;
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
     }
 
     @media (max-width: 640px) {
