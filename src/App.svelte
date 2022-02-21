@@ -45,7 +45,7 @@
                 target="_blank"
                 class="link">VOLUNTEER</a
             >
-            <span class="tooltiptext">Only for RI Y56 Students!</span>
+            <span class="tooltiptext">Only for RI Y16 Students!</span>
         </div>
 
         <img src={logo} alt="Code for Hope Logo" />
