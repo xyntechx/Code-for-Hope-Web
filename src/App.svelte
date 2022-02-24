@@ -39,15 +39,6 @@
         </button>
         <button on:click|preventDefault={() => changePage("team")}>Team</button>
 
-        <div class="tooltip">
-            <a
-                href="https://forms.gle/YGz6LpZn8FDsanHK8"
-                target="_blank"
-                class="link">VOLUNTEER</a
-            >
-            <span class="tooltiptext">Only for RI Y16 Students!</span>
-        </div>
-
         <img src={logo} alt="Code for Hope Logo" />
     </section>
 
