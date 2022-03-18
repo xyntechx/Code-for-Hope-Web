@@ -9,13 +9,12 @@
     <p class="description">
         We are students of Raffles Institution (Class of 2022) on a mission to
         create a fair playing field independent of socio-economic status for all
-        students. As programming is a relevant and important skill in today's
-        digital era, we hope that by introducing programming to young students,
-        they will be equipped with the useful skill of programming and thus be
-        better prepared for the future! So far, we have collaborated with <span
-            >5 CDAC centres</span
-        >
-        and taught <span>60 students</span> in Singapore!
+        students, ultimately tackling income inequality. As programming is a 
+        relevant and important skill in today's digital era, we hope that by
+        introducing programming to young students, they will be equipped with
+        the useful skill of programming and thus be better prepared for the future! 
+        So far, we have recruited <span>25 volunteers</span>, collaborated with 
+        <span>14 CDAC centres</span> and taught <span>200 students</span> in Singapore!
     </p>
     <section>
         <div>
