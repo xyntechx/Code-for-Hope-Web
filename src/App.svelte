@@ -84,7 +84,7 @@
         transition: background-color 0.3s;
         width: 12rem;
         font-size: 1.5rem;
-        margin: 0.5rem 0;
+        margin-bottom: 1rem;
     }
 
     button:hover {

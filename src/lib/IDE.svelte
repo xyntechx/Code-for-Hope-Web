@@ -1,11 +1,8 @@
-<head>
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-</head>
-
-<py-repl auto-generate=true></py-repl>
+<py-repl />
 
 <style>
+    @import url("https://pyscript.net/alpha/pyscript.css");
+
     py-repl {
         width: 90vw;
         height: 85vh;
