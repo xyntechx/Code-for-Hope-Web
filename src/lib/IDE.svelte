@@ -3,7 +3,7 @@
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 </head>
 
-<py-repl />
+<py-repl></py-repl>
 
 <style>
     py-repl {

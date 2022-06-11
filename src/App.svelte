@@ -84,6 +84,7 @@
         transition: background-color 0.3s;
         width: 12rem;
         font-size: 1.5rem;
+        margin: 0.5rem 0;
     }
 
     button:hover {
@@ -107,58 +108,12 @@
         display: none;
     }
 
-    .link {
-        font-family: inherit;
-        -webkit-padding: 0.4em 0;
-        padding: 0.4em;
-        margin: 0 0 0.5em 0;
-        box-sizing: border-box;
-        outline: none;
-        color: #cbd5e1;
-        text-decoration: none;
-        border: none;
-        border-radius: 0.5rem;
-        background-color: #0ea5e9;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        width: 12rem;
-        font-size: 1.5rem;
-    }
-
-    .link:hover {
-        background-color: #0284c7;
-    }
-
-    .tooltip {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .tooltiptext {
-        visibility: hidden;
-        background-color: #0ea5e9;
-        color: #fff;
-        text-align: center;
-        padding: 0.5rem 1rem;
-        border-radius: 1rem;
-        z-index: 1;
-        text-align: center;
-        font-size: 1rem;
-    }
-
-    .tooltip:hover .tooltiptext {
-        visibility: visible;
-    }
-
     @media (max-width: 640px) {
         h1 {
             font-size: 1.5rem;
         }
 
-        button,
-        .link {
+        button {
             font-size: 1rem;
         }
     }
