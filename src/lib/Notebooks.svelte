@@ -8,7 +8,7 @@
                     target="_blank">Lesson 1</a
                 >
                 <a
-                    href="https://colab.research.google.com/drive/1PCfgcUbWtm6MqjyN1s7sLn13ncHag1JY"
+                    href="https://colab.research.google.com/drive/1norfrupFiycu1krAZA6rhFvbIWWBhnTP"
                     target="_blank">Practice 1</a
                 >
             </section>
@@ -23,11 +23,11 @@
         <div class="box">
             <section class="links">
                 <a
-                    href="https://colab.research.google.com/drive/1NqPWP02JuXNdUyK0w0AWBCg9oZVSK1tf"
+                    href="https://colab.research.google.com/drive/1tO2ah9TvT120n17FmKm03RL5rE_DOQPs"
                     target="_blank">Lesson 2</a
                 >
                 <a
-                    href="https://colab.research.google.com/drive/1P7EZdJLo26vlZEJ2q17JcF8Z40qUPRMx"
+                    href="https://colab.research.google.com/drive/1ZbLiaePfaNhGdwxcfufkNAx6ElYX2wpf"
                     target="_blank">Practice 2</a
                 >
             </section>
@@ -43,11 +43,11 @@
         <div class="box">
             <section class="links">
                 <a
-                    href="https://colab.research.google.com/drive/1xMIlF43QZVT_dAlAVbBZ6T2r4t3DTM61"
+                    href="https://colab.research.google.com/drive/1lhsAyANIh8aAF73LN2It05PL4oqJxIfu"
                     target="_blank">Lesson 3</a
                 >
                 <a
-                    href="https://colab.research.google.com/drive/1oUaTxuVtr6qZT7cH_mubSsfEuDZ5d9pw"
+                    href="https://colab.research.google.com/drive/1om6iIe9k6hyMQSmRJqVsKInl-B8593hM"
                     target="_blank">Practice 3</a
                 >
             </section>
@@ -62,11 +62,11 @@
         <div class="box">
             <section class="links">
                 <a
-                    href="https://colab.research.google.com/drive/11TCo3jqDKbHyis-q5Tn17l4toqKUPUgw"
+                    href="https://colab.research.google.com/drive/1cjJDJgy8wsA1hfyYe_gmTzwayXwi7bp4"
                     target="_blank">Lesson 4</a
                 >
                 <a
-                    href="https://colab.research.google.com/drive/1opPVymG1lmYuFFJZ7pz6D5GCVYe5r3wd"
+                    href="https://colab.research.google.com/drive/14jVCt9MnNB3Cgld91tNW8dKzcAF4Cw3M"
                     target="_blank">Practice 4</a
                 >
             </section>
