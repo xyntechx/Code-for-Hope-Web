@@ -4,7 +4,7 @@
         <div class="box">
             <section class="links">
                 <a
-                    href="https://colab.research.google.com/drive/19ceCfHiU4sCW2Sdp5PF4JQ6mautEeFoJ"
+                    href="https://colab.research.google.com/drive/12465FAGnWeJEUiKQ3fQTt7o2d9VamAxm"
                     target="_blank">Lesson 1</a
                 >
                 <a
