@@ -14,7 +14,7 @@
         introducing programming to young students, they will be equipped with
         the useful skill of programming and thus be better prepared for the future! 
         So far, we have recruited <span>25 volunteers</span>, collaborated with 
-        <span>14 CDAC centres</span> and taught <span>200 students</span> in Singapore!
+        <span>13 CDAC centres</span> and taught <span>200 students</span> in Singapore!
     </p>
     <section>
         <div>
